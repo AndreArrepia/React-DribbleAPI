@@ -1,0 +1,62 @@
+.loginContainer { /* stylelint-disable */
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#333333;
+}
+
+.loginWindow{
+	background: white;
+	width: 40vw;
+	height: 50vh;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.loginWindowHeader{
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid #333333;
+	padding: 0px 15px;
+}
+
+.loginWindowHeaderContent{
+	font-size: 16px;
+	margin: .67em 0;
+}
+
+.loginWindowBody{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+	height: 43vh;
+}
+
+.socialIconGoogle, .socialIconFacebook, .socialIconDribbble{
+	font-size: 20vh;
+	color:black;
+}
+
+.socialIconGoogle:hover{
+	color:#dd4c3b;
+	transition: color 0.2s ease-out;
+}
+
+.socialIconFacebook:hover{
+	color:#3b5998;
+	transition: color 0.2s ease-out;
+}
+
+.socialIconDribbble:hover{
+	color:#dd3e7b;
+	transition: color 0.2s ease-out;	
+}
+
+

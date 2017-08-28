@@ -1,0 +1,47 @@
+.animationContainer { /* stylelint-disable */
+	background-color: yellow;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cls{
+	width:  70px;
+	height:  70px;
+	animation: rotateAll 3s linear 1;
+}
+
+
+
+@keyframes rotateAll {
+  0%{
+    transform: skewX(0deg);
+    fill:red;
+  }
+  10%{
+  	transform:skewX(30deg);
+  }
+  20%{
+  	transform:skewX(-30deg);
+  }
+  30%{
+  	transform:skewX(0deg);
+  	fill:green;
+  }
+  40%{
+  	transform:scaleX(2) scaleY(2);
+  	fill:green;
+  }
+  50%{
+  	transform:scaleX(1) scaleY(1);
+  	fill:black;
+  }
+  60%{
+  	filter: opacity(0);
+  }
+  70%{
+  	filter: opacity(1);
+  	transform:rotate(360deg);
+  }
+}
